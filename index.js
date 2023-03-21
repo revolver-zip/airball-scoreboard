@@ -53,6 +53,6 @@ function highScore() {
         document.getElementById("player1-highScore").textContent = scoreHome;
         document.getElementById("player2-highScore").textContent = scoreAway;
         document.getElementById("player1-name").textContent = "Home ";
-        document.getElementById("player2-name").textContent = "Guest";
+        document.getElementById("player2-name").textContent = "Away";
     }
 } 
