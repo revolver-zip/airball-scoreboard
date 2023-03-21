@@ -1,0 +1,82 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Airball Scoreboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="page-title">Airball Scoreboard</h1>
+        <div class="container">
+            <div class="score-container">
+                <h3 class="title">HOME</h3>
+                <div id="score-home">00</div>
+                <div class="btn-container">
+                    <div><button class="buttons" onclick="addHome1()">+1</button></div>
+                    <div><button class="buttons" onclick="addHome2()">+2</button></div>
+                    <div><button class="buttons" onclick="addHome3()">+3</button></div>
+                </div>
+            </div>
+            <div id="mosaic">
+                <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+                <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+                <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+                <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+                <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+                <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+                 <div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                    <div class="dec-circles"></div>
+                </div>
+            </div >
+            <div class="score-container">
+                <h3 class="title">GUEST</h3>
+                <div id="score-away">00</div>
+                <div class="btn-container">
+                    <div><button class="buttons" onclick="addAway1()">+1</button></div>
+                    <div><button class="buttons" onclick="addAway2()">+2</button></div>
+                    <div><button class="buttons" onclick="addAway3()">+3</button></div>
+                </div>
+            </div>
+        </div>
+        <div id="newgame-btn-container" onclick="newGame()"><button id="newgame-btn">New Game</button></div>
+        <section>
+            <h2 id="highest-score-title">Highest Score</h2>
+            <div id="highest-score-container">
+                <h3 id="high-score-string"><span id="player1-name">Aang </span><span id="player1-highScore">07</span> x <span id="player2-highScore">00</span> <span id="player2-name">Sokka</span></h3>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
